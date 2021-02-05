@@ -36,7 +36,7 @@ const questions = [
     {
       type: "input",
       name: "contributers",
-      message: "Who are the contributers of this project?"
+      message: "Who are contributers of this project?"
     },
     //    Tests
     {
