@@ -60,7 +60,7 @@ const questions = [
     {
       type: "list",
       name: "license",
-      message: "Which lisence you would like to use?",
+      message: "Which license you would like to use?",
       choices: ["MIT", "GNU GPL v3.0", "Mozilla Public License", "IBM Public License"]
     },
 ]
@@ -70,7 +70,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(userResponse => {
-    fs.writeFile("readme.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README.MD file succesfully created"))
+    fs.writeToFile("readme.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README.MD file succesfully created"))
     })
 }
 
