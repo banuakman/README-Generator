@@ -36,7 +36,7 @@ const questions = [
     {
       type: "input",
       name: "contributers",
-      message: "Who are the contributers of this project?"
+      message: "Who are contributers of this project?"
     },
     //    Tests
     {
@@ -70,7 +70,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(userResponse => {
-    fs.writeToFile("readme.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README.MD file succesfully created"))
+    fs.writeFile("readme.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README.MD file succesfully created"))
     })
 }
 
