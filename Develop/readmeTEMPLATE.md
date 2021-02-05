@@ -3,18 +3,18 @@
 License Badge
 
 ## Table of Contents
-- [Descriptions](#Descriptipon)
-- [Instalation Instructions](#Instalation)
+- [Descriptions](#Description)
+- [Instructions](#Instructions)
 - [Usage](#Usage)
 - [Contributers](#Contributers)
 - [Tests](#Tests)
-- [Questions](#questions)
+- [Questions](#Questions)
 
-## Descriptipon
+## Description
 Description
 
-## Instalation Instructions
-installation instructions
+## Instructions
+Installation
 
 ## Usage
 Usage
