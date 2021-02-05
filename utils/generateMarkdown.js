@@ -45,7 +45,7 @@ ${data.contributers}
 ${data.tests}
 
 ## Questions
-If you have any questions, please send an email to ${data.email} or reach me through ${data.github}`
+If you have any questions, please send an email to ${data.email} or reach me through https://github.com/${data.github}`
 }
 
 module.exports = generateMarkdown;
