@@ -23,16 +23,16 @@ ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 - [Descriptions](#Description)
-- [Instructions](#Instructions)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributers](#Contributers)
 - [Tests](#Tests)
 - [Questions](#Questions)
-  
+
 ## Description
 ${data.description}
 
-## Instructions
+## Installation
 ${data.instructions}
 
 ## Usage

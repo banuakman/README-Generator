@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [Descriptions](#Description)
-- [Instructions](#Instructions)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributers](#Contributers)
 - [Tests](#Tests)
@@ -13,11 +13,14 @@
 ## Description
 This application dynamically creates a high quality professional readme file for applications
 
-## Instructions
-Once all the files in the repository are downloaded to your local machine, open that folder in terminal. Then initialize npm by typing "npm i" to command line. Then install the inquire package by typing "npm install inquire"
+## Installation
+In order to use this app, be sure that "node.js" is installed to your local machine.
+Once all the files in the repository are downloaded to your local machine, open that folder in terminal. 
+Then initialize npm by typing "npm i -y" to the command line. 
+Then add the inquire package by typing "npm install inquire"
 
 ## Usage
-To run the application, type "node index" in your terminal
+To run the application, type "node index" in your terminal and answer the prompts in your terminal. A readme_new.md file will be created automaticaly.
 ![README Gif](./utils/readme.gif)
 
 ## Contributers
