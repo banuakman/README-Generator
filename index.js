@@ -24,13 +24,13 @@ const questions = [
       {
         type: "input",
         name: "instructions",
-        message: "What are the instructions to install your project?"
+        message: "Write the instructions to install your project"
       },
     //    Usage
       {
         type: "input",
         name: "usage",
-        message: "Give us an example for using this application"
+        message: "Write the instructions for using your application"
       },
     //    Contributers
     {
@@ -65,12 +65,12 @@ const questions = [
     },
 ]
 
-// Create a function to initialize app
+// Create a function to initialize app and generate readme_new.md file
 function init() {
     inquirer
     .prompt(questions)
     .then(userResponse => {
-    fs.writeFile("readme.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README.MD file succesfully created"))
+    fs.writeFile("readme_sample.md", generateMarkdown(userResponse), (err) => err ? console.error(err) : console.log("README_SAMPLE.MD file succesfully created"))
     })
 }
 
