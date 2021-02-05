@@ -61,7 +61,7 @@ const questions = [
       type: "list",
       name: "license",
       message: "Which license you would like to use?",
-      choices: ["MIT", "GNU GPL v3.0", "Mozilla Public License", "IBM Public License"]
+      choices: ["MIT", "GNU GPL v3.0", "Mozilla Public License", "IBM Public License", "None"]
     },
 ]
 
